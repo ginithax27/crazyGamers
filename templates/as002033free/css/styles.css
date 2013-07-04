@@ -1,0 +1,673 @@
+/*******************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+/* Elements
+/**************************************************************************************/
+/**************************************************************************************/
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+color: #8A8A8A;
+background-image: url(../images/bg.png);
+}
+h1,
+h2,
+h3
+{
+color: #B0B0B0;
+font-size: 26px;
+font-weight: normal;
+}
+a
+{
+color: #8A8A8A;
+}
+a:hover
+{
+color: #FBDA39;
+}
+input
+{
+color: #8A8A8A;
+border-color: #303030;
+background-color: #1C1C1C;
+}
+option
+{
+background-color: #1C1C1C;
+}
+select
+{
+color: #8A8A8A;
+border-color: #303030;
+background-color: #1C1C1C;
+}
+textarea,
+.CodeMirror-wrapping
+{
+color: #8A8A8A;
+border: 1px solid #303030;
+background-color: #1C1C1C;
+}
+/**************************************************************************************/
+/* Header
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+/* Header Row 1 - Logo */
+#header .row1
+{
+background-color: #000000;
+border-bottom: 1px solid #303030;
+}
+#header .row1 #companyname
+{
+text-align: left;
+}
+#header .row1 #companyname,
+#header .row1 #companyname a
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: normal;
+text-align: left;
+color: #B0B0B0;
+}
+#header .row1 #companyname a:hover
+{
+color: #FBDA39;
+}
+#header .row1 .slogan
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+color: #B0B0B0;
+}
+#header .row1 #topnavbar .menu,
+#header .row1 #topnavbar .custom
+{
+float: right;
+}
+#header .row1 #topnavbar,
+#header .row1 #topnavbar a
+{
+color: #8A8A8A;
+}
+#header .row1 #topnavbar a:hover
+{
+color: #FBDA39;
+}
+#header .row1 #topnavbar .custom #homelink a
+{
+background-image: url(../images/themes/sunshine/btn.home.png);
+background-repeat: no-repeat;
+background-position: top;
+}
+#header .row1 #topnavbar .custom #homelink a:hover
+{
+background-position: bottom;
+}
+#header .row1 #topnavbar .custom #contactlink a
+{
+background-image: url(../images/themes/sunshine/btn.contact.png);
+background-repeat: no-repeat;
+background-position: top;
+}
+#header .row1 #topnavbar .custom #contactlink a:hover
+{
+background-position: bottom;
+}
+#header .row1 #topnavbar .custom #maplink a
+{
+background-image: url(../images/themes/sunshine/btn.map.png);
+background-repeat: no-repeat;
+background-position: top;
+}
+#header .row1 #topnavbar .custom #maplink a:hover
+{
+background-position: bottom;
+}
+/**************************************************************************************/
+/* Slide Row */
+#header #sliderow
+{
+background-image: url(../images/bg.slider.png);
+background-position: left bottom;
+background-repeat: repeat-x;
+border-bottom: 1px solid #303030;
+}
+#header #sliderow #slideshow #slider .nivo-controlNav
+{
+display: none;
+}
+#header #sliderow #slideshow #slider .nivo-caption
+{
+}
+/**************************************************************************************/
+/* Header Row 2 - Top Menu */
+#header .row2
+{
+color: #B0B0B0;
+}
+#header .row2 .content
+{
+border: 1px solid #303030;
+}
+#header .row2 #topmenu ul.menu
+{
+padding: 0px 0px 0px 75px;
+}
+#header .row2 #topmenu ul.menu li a,
+#header .row2 #topmenu ul.menu ul li a
+{
+color: #8A8A8A;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+#header .row2 #topmenu ul.menu li.current a,
+#header .row2 #topmenu ul.menu li.active a,
+#header .row2 #topmenu ul.menu li.actives a,
+#header .row2 #topmenu ul.menu li.current a:hover,
+#header .row2 #topmenu ul.menu li.active a:hover,
+#header .row2 #topmenu ul.menu li.actives a:hover
+{
+color: #FBDA39;
+}
+#header .row2 #topmenu ul.menu li a:hover
+{
+color: #FBDA39;
+}
+
+/**************************************************************************************/
+/* Header Row 3 - Breadcrums */
+#header .row3 .content
+{
+font-size: 12px;
+}
+#header #breadcrumb
+{
+border-bottom: 1px solid #FBDA39;
+text-transform: none;
+font-size: 12px;
+color: #B0B0B0;
+}
+.breadcrumbs span
+{
+background-image: url(../images/themes/sunshine/bg.bread.mark.png);
+background-position: bottom center;
+background-repeat: no-repeat;
+}
+#header #breadcrumb a
+{
+color: #B0B0B0;
+}
+#header #breadcrumb a:hover
+{
+color: #FBDA39;
+}
+#header .row3 #search input
+{
+border: 1px solid #FBDA39;
+}
+#header .row3 #search .inputbox
+{
+background-image: url(../images/themes/sunshine/bg.search.png);
+background-repeat: no-repeat;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* Content
+/**************************************************************************************/
+/**************************************************************************************/
+#content
+{
+padding-top: 1px;
+}
+/**************************************************************************************/
+/* Column Left & Right
+/**************************************************************************************/
+/**************************************************************************************/
+#colleft
+{
+}
+#colleft h1,
+#colleft h2,
+#colleft h3
+{
+color: #B0B0B0;
+font-size: 22px;
+font-weight: normal;
+}
+#colleft h4
+{
+color: #B0B0B0;
+}
+#colleft a
+{
+color: #8A8A8A;
+}
+#colleft a:hover
+{
+color: #FBDA39;
+}
+#colleft ul li
+{
+background-image: url(../images/themes/sunshine/listimg.side.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#colleft ul li:hover
+{
+background-image: url(../images/themes/sunshine/listimg.sidehover.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#colleft ul li a
+#colleft ul li.active ul li a
+{
+color: #8A8A8A;
+}
+#colleft ul li a:hover,
+#colleft ul ul li a:hover
+{
+color: #FBDA39;
+}
+#colleft .moduletable ul.menu li a,
+#colleft .moduletable_menu ul.menu li a,
+#colleft .moduletable #login-form ul li a
+{
+color: #FBDA39;
+}
+#colleft .moduletable ul.menu li a:hover,
+#colleft .moduletable_menu ul.menu li a:hover,
+#colleft .moduletable #login-form ul li a:hover
+{
+color: #8A8A8A;
+}
+#colleft img
+{
+background-color: #1C1C1C;
+border: 1px solid #303030;
+}
+#colleft button,
+#colleft .button
+{
+border: 1px solid #303030;
+color: #FFFFFF;
+}
+#colleft button:hover,
+#colleft .button:hover
+{
+color: #000000;
+}
+#colleft input,
+#colright input
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+#colleft .readmore,
+#colleft .button
+{
+background-image: url(../images/themes/sunshine/bg.readmore.btn.png);
+background-repeat: repeat-x;
+background-position: left top;
+}
+#colleft .readmore a,
+#colleft .button a
+{
+color: #FFFFFF;
+}
+#colleft .readmore a:hover,
+#colleft .button a:hover
+{
+color: #000000;
+}
+#colleft .more a
+{
+color: #FBDA39;
+}
+#colleft .more a:hover
+{
+color: #8A8A8A;
+}
+/**************************************************************************************/
+/* Rows */
+#colleft .row1,
+#colleft .row2
+{
+border: 1px solid #303030;
+}
+/**************************************************************************************/
+/* Column Main
+/**************************************************************************************/
+/**************************************************************************************/
+#colmain
+{
+}
+#colmain #component
+{
+}
+#colmain #component .innerborder
+{
+border: 1px solid #000000;
+}
+#colmain .blog-featured,
+#colmain .item-page,
+#colmain .contact,
+#colmain .registration,
+#colmain .reset,
+#colmain .remind,
+#colmain .profile,
+#colmain .edit,
+#colmain .search-results,
+#colmain .categories-list
+{
+background-color: transparent;
+}
+#colmain h1,
+#colmain h2,
+#colmain h3
+{
+color: #B0B0B0;
+font-size: 26px;
+font-weight: normal;
+}
+#colmain h1 a,
+#colmain h2 a,
+#colmain h3 a
+{
+color: B0B0B0;
+}
+#colmain h1 a:hover,
+#colmain h2 a:hover,
+#colmain h3 a:hover
+{
+color: #FBDA39;
+}
+#colmain h4
+{
+color: #B0B0B0;
+}
+#colmain h5
+{
+color: #FBDA39;
+}
+#colmain a
+{
+color: #8A8A8A;
+}
+#colmain a:hover
+{
+color: #FBDA39;
+}
+#colmain li
+{
+background-image: url(../images/themes/sunshine/listimg.general.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#colmain li:hover
+{
+background-image: url(../images/themes/sunshine/listimg.generalhover.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#colmain input,
+#colmain textarea
+{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #1C1C1C;
+}
+#colmain input[type="checkbox"],
+#colmain input[type="radio"]
+{
+background-color: transparent !important!
+}
+#colmain p
+{
+color: #8A8A8A;
+}
+#colmain #component img
+{
+border: 1px solid #303030;
+}
+#colmain .blog-featured .readmore,
+#colmain .blog .readmore
+{
+background-image: url(../images/themes/sunshine/bg.readmore.btn.png);
+background-repeat: repeat-x;
+background-position: left top;
+}
+#colmain .blog-featured .readmore:hover,
+#colmain .blog .readmore:hover
+{
+}
+#colmain .item-separator
+{
+height: 5px;
+}
+#colmain .blog-featured .readmore a,
+#colmain .blog .readmore a
+{
+color: #FFFFFF;
+}
+#colmain .blog-featured .readmore a:hover,
+#colmain .blog .readmore a:hover,
+#colmain .blog-featured .readmore:hover a,
+#colmain .blog .readmore:hover a
+{
+color: #000000;
+}
+#colmain .readmore:hover
+{
+}
+#colmain .readmore a
+{
+color: #8A8A8A;
+}
+#colmain .readmore a:hover
+{
+color: #FBDA39;
+}
+#colmain .readmore button,
+#colmain .readmore .button
+{
+color: #8A8A8A;
+}
+#colmain .readmore button:hover,
+#colmain .readmore .button:hover
+{
+color: #FBDA39;
+}
+#colmain button,
+#colmain .button
+{
+background-image: url(../images/themes/sunshine/bg.readmore.btn.png);
+background-repeat: repeat-x;
+background-position: left top;
+border: 1px solid #303030;
+color: #FFFFFF;
+}
+#colmain button:hover,
+#colmain .button:hover,
+#colmain .button:hover a
+{
+color: #000000;
+}
+#colmain #adsense
+{
+border-top: 1px solid #303030;
+border-bottom: 1px solid #303030;
+}
+#colmain #adsense .innerborder
+{
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+#colmain .inputbox,
+#colmain #jform_name,
+#colmain #jform_username,
+#colmain #jform_password1,
+#colmain #jform_password2,
+#colmain #jform_email,
+#colmain #jform_email1,
+#colmain #jform_email2,
+#colmain #jform_title,
+#colmain #jform_url,
+#colmain #jform_catid,
+#colmain #jform_state,
+#colmain #jform_params_editor,
+#colmain #jform_params_timezone,
+#colmain #jform_params_language,
+#colmain #jform_params_admin_style,
+#colmain #jform_params_admin_language,
+#colmain #jform_params_helpsite,
+#colmain #username,
+#colmain #password
+{
+border-color: #303030;
+background-color: #1C1C1C;
+}
+#colmain #editor-xtd-buttons .button2-left .readmore a
+{
+color: #8A8A8A;
+}
+#colmain #member-registration fieldset,
+#colmain #member-profile fieldset,
+#colmain #adminForm fieldset,
+#colmain .registration fieldset,
+#colmain .profile fieldset
+{
+}
+#colmain #users-profile-core legend,
+#colmain #users-profile-custom legend,
+#colmain #adminForm legend,
+#colmain .profile-edit legend,
+#colmain .registration legend
+{
+}
+#colmain span.spacer > span.text label
+{
+color: #8A8A8A;
+}
+#colmain #searchForm .phrases,
+#colmain #searchForm .only
+{
+border-color: #303030;
+}
+#colmain #jform_spacer-lbl,
+#colmain label.invalid,
+#colmain .red,
+#colmain .star,
+#colmain .asterisk
+{
+color: #92AD3C;
+}
+
+/**************************************************************************************/
+/* Footer
+/**************************************************************************************/
+/**************************************************************************************/
+/**************************************************************************************/
+
+/**************************************************************************************/
+/* Footer Row 2 */
+#footer .row2
+{
+color: #8A8A8A;
+font-size: 12px;
+border-top: 1px solid #303030;
+background-color: #000000;
+}
+#footer .row2 h1,
+#footer .row2 h2,
+#footer .row2 h3
+{
+color: #B0B0B0;
+font-size: 18px;
+font-weight: normal;
+}
+#footer .row2 input
+{
+color: #8A8A8A;
+}
+#footer .row2 p,
+#footer .row2 #trademark
+{
+color: #8A8A8A;
+}
+#footer .row2 #trademark
+{
+}
+#footer .row2 a,
+#footer .row2 #footermenu li a
+{
+color: #8A8A8A;
+}
+#footer .row2 a:hover
+{
+color: #FBDA39;
+}
+#footer .row2 li
+{
+background-image: url(../images/themes/sunshine/listimg.minor.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#footer .row2 .menu li:hover,
+#footer .row2 li:hover
+{
+background-image: url(../images/themes/sunshine/listimg.minor.png);
+background-repeat: no-repeat;
+background-position: left bottom;
+}
+#footer .row2 .bg
+{
+}
+#footer .row2 .overlay
+{
+}
+#footer .row2 .sepline
+{
+}
+/**************************************************************************************/
+/* Footer Row 3 */
+#footer .row3,
+#footer .row3 a
+{
+color: #FBDA39;
+background-color: #000000;
+}
+
+#footer .row3 a:hover
+{
+color: #8A8A8A;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* General Element IDs and classes
+/**************************************************************************************/
+/**************************************************************************************/
+.moduletable_menu li a:hover
+{
+color: #FBDA39;
+}
+.hword
+{
+color: #FBDA39;
+}

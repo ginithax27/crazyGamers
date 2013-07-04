@@ -1,0 +1,174 @@
+#slideshow
+{
+	float: none;
+	width: 1000px;
+	height: 475px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+#slideshow .border
+{
+}
+
+#slideshow #slider 
+{
+    margin: 0px 0px 0px 0px;
+    width: 1000px; 
+    height: 450px;
+	overflow: hidden;
+}
+
+#slideshow #slider .nivoSlider 
+{
+	position: relative;
+	background: #fff url(../images/loading.gif) no-repeat 50% 50%;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+
+#slideshow #slider .nivoSlider img 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#slideshow #slider .nivoSlider a 
+{
+	border: 0;
+	display: block;
+}
+
+#slideshow #slider .nivo-slice 
+{
+	display: block;
+	position: absolute;
+	z-index: 5;
+	height: 100%;
+}
+
+#slideshow #slider .nivo-box 
+{
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+
+#slideshow #slider .nivo-caption 
+{
+	width: 350px;
+	height: 34px;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	padding: 5px;
+	background: #000000;
+	color: #ffffff;
+	opacity: 0.8;
+	z-index: 8;
+}
+
+#slideshow #slider .nivo-caption p 
+{
+	margin: 0px;
+}
+
+#slideshow #slider .nivo-caption a 
+{
+	display: inline !important;
+    color: #fff;
+    border-bottom: 1px dotted #fff;	
+}
+
+#slideshow #slider .nivo-html-caption 
+{
+    display: none;
+}
+
+#slideshow #slider .nivo-caption a:hover 
+{
+    color: #fff;
+}
+
+#slideshow #slider .nivo-directionNav a 
+{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 45%;
+	z-index: 9;
+	cursor: pointer;	
+	background: url(../images/arrows.png) no-repeat;
+	text-indent: -9999px;
+	border: 0;
+}
+
+#slideshow #slider .nivo-prevNav 
+{
+	left: 0px;
+}
+
+#slideshow #slider a.nivo-prevNav 
+{
+	left: 15px;
+}
+
+#slideshow #slider .nivo-nextNav 
+{
+	right: 0px;
+}
+
+#slideshow #slider a.nivo-nextNav 
+{
+	background-position: -30px 0;
+	right: 15px;
+}
+
+#slideshow #slider .nivo-controlNav 
+{
+	position: absolute;
+    margin-left: -35px;
+	z-index: 9;
+	display: block;
+}
+
+#slideshow #slider .nivo-controlNav a 
+{
+	position: relative;
+	cursor: pointer;
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../images/bullets.png) no-repeat;
+	text-indent: -9999px;
+	border: 0;
+	margin-right: 3px;
+	float: left;	
+}
+
+#slideshow #slider .nivo-controlNav a.active 
+{
+	font-weight: bold;
+	background-position: 0 -22px;	
+}
+
+#slideshow .nivoSlider a.nivo-imageLink 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	z-index: 6;
+	display: none;
+}

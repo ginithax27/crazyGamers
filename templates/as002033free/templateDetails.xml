@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.7/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>AS 002033 Free</name>
+	<creationDate>2011-11-17</creationDate>
+	<updateDate>2012-10-05</updateDate>
+	<version>2.0.5</version>
+	<author>AS Designing</author>
+    <authorUrl>http://www.asdesigning.com</authorUrl>
+    <copyright>AS Designing</copyright>
+    <license>Creative Commons</license>
+	<description>
+	
+	<![CDATA[
+
+			<img src="../templates/as002033free/template_thumbnail.png" align="left" style="margin: 0px 10px 10px 0px;" />
+			
+			<h1>AS Template 002033 - Free Version</h1>
+			
+			<span style="font-weight: bold; ">
+				This template is released under the Creative Commons Attribution 3.0 license. <br>
+				This means that it can be used for private and commercial purposes, <br>
+				edited freely or redistributed as long as you keep the link back to 
+				<a href="http://www.astemplates.com" target="_blank">AS Templates</a>.<br /> 
+				If you are not going to keep the link, you should purchase a license.<br /><br />
+				<a href="http://www.astemplates.com/itemdetails.php?id=109" target="_blank">See template details</a>
+				for more info.<br />
+				<a href="http://astemplates.com/itemdetails.php?id=110&page=howto" target="_blank">Click here</a>  
+				to see template documentation.<br />
+			</span> 							
+			<br />
+			<span style="color:red; font-weight: bold; font-size:18px ">
+			<br />Free Version is limited and may not include all features.<br />
+			</span>
+			<br />
+			<hr /><br />
+			<h3><b>Most popular AS Templates:</b></h3>
+			    <a href="http://www.astemplates.com/itemdetails.php?id=109" target="_blank"><b>AS Template 002032</b></a><br />
+			    <a href="http://www.astemplates.com/itemdetails.php?id=96" target="_blank"><b>AS Template 002031</b></a><br />
+			    <a href="http://www.astemplates.com/itemdetails.php?id=55" target="_blank"><b>AS Template 002022</b></a><br />
+			    <a href="http://www.astemplates.com/itemdetails.php?id=60" target="_blank"><b>AS Template 002027</b></a><br />
+			    <a href="http://www.astemplates.com/itemdetails.php?id=63" target="_blank"><b>AS Template 002030</b></a>
+			<br /><br />]]>			
+	</description>
+		
+    <files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>lib</folder>		
+		<folder>scripts</folder>
+		<folder>slider</folder>
+		
+		<filename>component.php</filename>
+        <filename>ie6warning.php</filename> 		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.general.php</filename>
+		<filename>template_thumbnail.png</filename>	
+		<filename>templateDetails.xml</filename>
+    </files>
+	
+	<positions>
+		<position>position-1</position>				<!-- header - topmenu - row2 -->
+		<position>breadcrumbsload</position>		<!-- header - breadcrumbs - row3 -->
+		<position>position-0</position>				<!-- header - search - row3 -->
+		<position>position-40</position>			<!-- left column - custom -->
+		<position>position-41</position>			<!-- left column - custom -->
+		<position>position-5</position>				<!-- main column - banners -->
+		<position>position-50</position>			<!-- footer -->
+	</positions>
+
+</extension>	
